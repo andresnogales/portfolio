@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> 
+
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <title>Andrés Nogales</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <div id="brand"><a href="/">Portfolio</a></div>
+        <nav>
+          <ul>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Mi proyectos</a></li>
+            <li><a href="#contact">Contáctame</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Mi proyectos</a></li>
+            <li><a href="#contact">Contáctame</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__text">
+          <h1 class="heading-primary">
+            <span>Andrés Nogales</span>
+          </h1>
+          <div class="header__description">
+            <p>FullStack Web Developer <br>
+            <i class="fas fa-map-marker-alt"></i> Jujuy, Argentina</p>
+          </div>
+          <!--
+          <a href="#contact" class="btn btn--primary-color">Descargar CV</a>
+          -->
+          <div class="header__links">
+            <a target="_blank" href="https://github.com/andresnogales/" title="Link to Github Profile">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/andres-nogales/" title="Link to Linkedin Profile">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+          <div class="btn-link">
+            <a href="#" class="btn">Descargar CV</a>
+          </div>
+        </div>
+    </header>
+    </header>
+
+    <script>
+      function toggleMobileMenu(menu) {
+        menu.classList.toggle("open");
+      }
+    </script>
+
+  <main>
+    <section class="about" id="about">
+      <div class="box">
+        <h2>Acerca de mí</h2>
+        <div class="about__content">
+          <div class="about__photo-container">
+            <img class="about__photo" src="./assets/foto.png" alt="" />
+          </div>
+          <div class="about__text">
+            <p>
+              Estudiante de la Licenciatura en Sistemas en la Universidad Nacional de Jujuy, 
+              y desarrollador FullStack en Java formado en el bootcamp Digitalers de Telecom edición 2021.
+            </br>
+            Apasionado por las nuevas tecnologías y el desarrollo de software.
+             </br>              
+              Me considero una persona autodidacta, dedicada, entusiasta, perseverante, 
+              siempre con ganas de aprender.
+            </br>
+              Mi objetivo es poder aplicar los conocimientos adquiridos en mi formación como desarrollador 
+              y poder integrar un equipo de trabajo que me permita crecer como persona y como profesional.
+            </p>            
+          </div>          
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="box">
+        <h2>Skills</h2>
+        <div class="skills__box">
+          <div class="skill__container">
+            <i class="devicon-bootstrap-plain"></i>
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-csharp-plain"></i>
+            <span>C#</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-css3-plain"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-git-plain"></i>
+            <span>Git</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-html5-plain"></i>
+            <span>Html5</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-java-plain"></i>
+            <span>Java</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-javascript-plain"></i>
+            <span>Javascript</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-linux-plain"></i>
+            <span>Linux</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-mongodb-plain"></i>
+            <span>MongoDB</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-mysql-plain"></i>
+            <span>MySQL</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-postgresql-plain"></i>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-nodejs-plain"></i>
+            <span>Node.js</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-python-plain"></i>
+            <span>Python</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-react-original"></i>
+            <span>React</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-redux-original"></i>
+            <span>Redux</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-spring-plain"></i>
+            <span>Spring</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-typescript-plain"></i>
+            <span>Typescript</span>
+          </div>
+          <div class="skill__container">
+            <i class="devicon-vscode-plain"></i>
+            <span>VsCode</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="box">
+        <h2>Mis Proyectos (en progreso)</h2>
+        <div class="project__boxes">
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Turismo Jujuy</h3>
+              <p>
+                Clon del sitio turismo.jujuy.gob.ar convirtiéndolo en single-page application.
+              </p>
+              <ul class="project__list">
+                <li>React</li>
+                <li>Redux</li>
+                <li>Java Spring Boot</li>
+                <li>Hibernate</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <div class="btn-link">
+                <a target="_blank"  href="https://github.com/andresnogales/turismojujuy" class="btn">Backend & Fronted</a>                              
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./assets/proyectos/turismojujuy.png" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Bookshop</h3>
+              <p>
+                Aplicación E-Commerce de libros
+              </p>
+              <ul class="project__list">
+                <li>React</li>
+                <li>Redux</li>
+                <li>Java Spring Boot</li>
+                <li>Hibernate</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <div class="btn-link">
+                <a target="_blank" href="https://github.com/andresnogales/bookshop" class="btn">Backend</a>              
+                
+              </div>
+              <div class="btn-link">
+                <a target="_blank" href="https://github.com/andresnogales/bookshop-client" class="btn">Fronted</a>                           
+              </div>
+              
+            </div>
+            <div class="project__image-box">
+              <img src="./assets/proyectos/bookshop.png" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Resto Bar Order</h3>
+              <p>
+                Aplicación de un resto bar para tomar órdenes                
+              </p>
+              <ul class="project__list">
+                <li>MongoDB</li>
+                <li>Expres.js</li>
+                <li>React</li>
+                <li>Node.js</li>                
+              </ul>
+              <div class="btn-link">
+                <a target="_blank" href="https://github.com/andresnogales/resto-bar-order" class="btn">Backend & Fronted</a>                              
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./assets/proyectos/resto-bar-order.png" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+    <section class="contact" id="contact">
+      <div class="box">
+        <h2>Contáctame</h2>
+        <p>
+          Si te interesa mi perfil, no dudes en 
+          contactarme. Responderé a la brevedad.
+        </p>
+        <div class="contact__info">
+                    
+        <div class="btn-link">
+          <a target="_blank" href="mailto:a.andresnogales@gmail.com" class="btn">a.andresnogales@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  
+    <footer role="contentinfo" class="footer">
+      <div class="box">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a target="_blank" href="https://github.com/andresnogales/" title="Link to Github Profile">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a target="_blank" href="https://www.linkedin.com/in/andres-nogales/" title="Link to Linkedin Profile">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+        <p>
+          <i class="fas fa-copyright"></i> 2022 - Andrés Nogales.
+        </p>
+      </div>
+    </footer>
+
+    <div id="scrolltop">
+      <a class="top-button" href="#top"><i class="fas fa-arrow-up"></i></a>
+     </div>
+     <script src="./scripts.js"></script> 
+  </body>
+</html>
