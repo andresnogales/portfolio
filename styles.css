@@ -327,6 +327,7 @@ a {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin: 1rem 0;
 }
 
 .btn-link:focus {
