@@ -210,14 +210,15 @@ nav ul li:hover {
 .header__text {
   text-align: center;
   padding: 2rem;
+  /*
   width: 100%;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
 }
 
 .header__description {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .header__links {
@@ -227,6 +228,20 @@ nav ul li:hover {
 .header__links a {
   text-decoration: none;
   padding: 0 var(--spacing-small);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* --------------------------------------- */
@@ -312,10 +327,10 @@ a {
   background-color: var(--bg-color);
   border: 3px solid var(--primary-color);
   box-sizing: border-box;
-  color: #000;
+  color: var(--light-color);
   cursor: pointer;
   display: inline-flex;
-  font-weight: 600;
+  font-weight: 400;
   height: 48px;
   justify-content: center;
   min-width: 140px;
