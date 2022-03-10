@@ -208,7 +208,6 @@ nav ul li:hover {
 }
 
 .header__text {
-  text-align: center;
   padding: 2rem;
   /*
   width: 100%;
@@ -223,11 +222,18 @@ nav ul li:hover {
 
 .header__links {
   margin: var(--spacing-small) 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__links a {
   text-decoration: none;
   padding: 0 var(--spacing-small);
+}
+
+.header__links i {
+  color: var(--text-color);
 }
 
 .hero {
@@ -241,6 +247,10 @@ nav ul li:hover {
   .hero {
     display: flex;
     flex-direction: column;
+  }
+
+  .header__text {
+    text-align: center;
   }
 }
 
