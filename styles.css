@@ -366,7 +366,7 @@ a {
 }
 
 .btn-link:focus {
-  color: #171e29;
+  color: var(--light-color);
 }
 
 .btn-link:hover {
@@ -385,6 +385,10 @@ a {
   .btn-link {
     min-width: 170px;
   }
+}
+
+.btn i{
+  margin-right: 1rem;
 }
 
 /* --------------------------------------- */
@@ -471,6 +475,10 @@ a {
   .project__code {
     height: 4rem;
   }
+}
+
+.project__links a{
+  margin-right: 1rem;
 }
 
 /* --------------------------------------- */
